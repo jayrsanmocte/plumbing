@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isNavOpen, setNavOpen] = useState(false);
@@ -36,9 +37,9 @@ const Navbar = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <div className="d-flex align-items-center">
-                  <button type="button" className="btn btn-warning me-3">
-                    About Us
-                  </button>
+                      <Link to="/about" className="btn btn-warning me-3">
+                        About Us
+                      </Link>   
                   <button type="button" className="btn btn-warning me-3">
                     Media
                   </button>

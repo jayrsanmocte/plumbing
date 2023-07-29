@@ -3,6 +3,9 @@ import './App.css';
 import Layout from './component/Layout';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './component/Home';
+import About from './component/About';
+
+
 
 function App() {
   return (
@@ -13,7 +16,10 @@ function App() {
           <Route path="/" element={<Layout />}>
             {/* Place your home route inside the Layout */}
             <Route index element={<Home />} />
+            
             {/* Add more nested routes for other components */}
+            <Route path="/about" element={<About />} />
+
           </Route>
           {/* Add more top-level routes for other components */}
         </Routes>
