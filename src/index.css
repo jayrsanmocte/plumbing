@@ -1,0 +1,145 @@
+.navbar {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .nav-link {
+    color: rgb(248, 248, 235); 
+
+}
+.nav-link:hover {
+color: rgb(227, 153, 35);
+
+}
+
+.navbar-toggler .fa-bars {
+  /* Change the color */
+  color: rgb(227, 162, 30); /* Replace 'red' with your desired color */
+
+  /* Adjust the size */
+  font-size: 50px; /* Replace '24px' with your desired font size */
+}
+
+
+
+
+
+
+
+
+
+.btn-warning {
+    background-color: rgb(45, 44, 44);
+    border: 2px solid rgb(227, 153, 35);
+    color: white; /* Set text color to white to improve visibility */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+ 
+  }
+  
+
+  .btn-warning:hover {
+    background-color: rgb(45, 44, 44);
+    color: rgb(227, 153, 35);
+    border: 2px solid rgb(227, 153, 35);
+    
+  }
+  
+.btn-warning{
+    --mdb-btn-bg: rgb(45, 44, 44);
+    --mdb-btn-color: #de951e;
+    --mdb-btn-box-shadow: 0 4px 9px -4px rgb(45, 44, 44);
+    --mdb-btn-hover-bg: rgb(45, 44, 44);
+    --mdb-btn-hover-color: #e4940a;
+    --mdb-btn-focus-bg: rgb(45, 44, 44);
+    --mdb-btn-focus-color: #eaa907;
+    --mdb-btn-active-bg: rgb(45, 44, 44);
+    --mdb-btn-active-color: #db8e12;
+    --mdb-btn-box-shadow-state: 0 8px 9px -4px rgb(45, 44, 44);
+    border-color: var(--mdb-btn-active-border-color);
+
+}
+
+
+.dropdown-item:hover {
+    color: var(--mdb-dropdown-state-color);
+    background-color: #db8e12;
+}
+  
+  .dropdown-menu {
+    background-color: rgb(45, 44, 44);
+    color: yellow;
+  }
+  .dropdown-item {
+    color: rgb(227, 153, 35);  
+  }
+
+.memo {
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 1em;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 5px #ffcc33;
+    position: relative;
+    display: block;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    color: #FFFFFF;
+    min-height: 50px;
+    padding: 25px 0 20px 0;
+    padding-bottom: 1;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.mama {
+  
+  background-color: rgb(4, 4, 4);
+}
+
+h1 {
+  margin-bottom: 0rem;
+}
+
+p {
+  margin-bottom: 0rem;
+}
+
+.white {
+color: rgb(180, 173, 173);
+text-shadow: #db8e12;
+text-align: center;
+}
+.custom-card {
+  background-color: #000000; /* Set the background color for the cards */
+  min-height: 400px; /* Set the minimum height for the cards */
+  color: rgb(119, 110, 110);
+ 
+
+}
+
+
+
+
+.background-wrapper {
+  background-image: url('image/bathroom-plumbing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh; /* Set the minimum height to occupy the full viewport */
+}
+
+
+.equal-height-wrapper {
+  display: flex;
+}
+
+/* Make each card take up equal width using flex-basis */
+.custom-card {
+  flex-basis: calc(33.33% - 2rem); /* 33.33% for each card, minus padding on both sides */
+  padding: 1rem; /* Add padding to each card to adjust the width */
+  background-color: #000000; /* Set the desired background color for the cards */
+  
+  box-sizing: border-box; /* Include padding and border in the card's total width */
+  width: 100%;
+  height: 100%;
+}
