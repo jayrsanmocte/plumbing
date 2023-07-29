@@ -25,7 +25,7 @@ const Home = () => {
 
       {/* Wrapper with fixed background image */}
       <div className="background-wrapper">
-        <div className="container pt-5">
+        <div className="pt-5">
           <div className="row">
             <div className="col-md-4 mb-4">
               <div className="card custom-card">

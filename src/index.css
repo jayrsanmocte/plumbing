@@ -113,8 +113,14 @@ text-align: center;
   background-color: #000000; /* Set the background color for the cards */
   min-height: 400px; /* Set the minimum height for the cards */
   color: rgb(119, 110, 110);
+  
  
 
+}
+
+.pt-5 {
+  padding-left: 5%;
+width: 95%;
 }
 
 
